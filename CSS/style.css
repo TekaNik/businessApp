@@ -55,12 +55,39 @@ header nav > span + ul{
 }
 header nav ul{
      display: flex;
-     justify-content: space-around;
-     
+     justify-content: space-around;    
 }
 
 header nav ul li{
      border: 2px solid red;
+}
+
+
+/* The Main Section */
+main{
+     display: flex;
+     justify-content: space-around;
+}
+main > section, main > img{
+     border: 2px solid red;
+}
+main > section{
+     display: flex;
+     flex-direction: column;
+}
+main > section h1,p,span{
+     border: 2px solid red;
+}
+main > section p,main > section h1{
+     text-transform: capitalize;
+     width: 70%;
+}
+main > section h1{
+     width: 50%;
+     font-size:2rem ;
+}
+main > section span + span{
+     float: left;
 }
 
 
@@ -69,7 +96,7 @@ header nav ul li{
 /*******************************************/
 @media screen and (max-width:520px){
      header nav span#logo{
-          display: block;
+          /* logo setting */
      }
      header nav ul{
           display: none;
