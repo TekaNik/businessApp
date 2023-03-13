@@ -23,8 +23,9 @@
 /*******************************************/
 
 body {
-     background-color: #0C1323;
+     /* background-color: #0C1323; */
      /* border: 2px solid red; */
+     background-color: #F8F9FB;
 
 }
 header {
@@ -63,6 +64,9 @@ header nav ul{
 
 header nav ul li{
      /* border: 2px solid red; */
+}
+header, main{
+     background-color: #0C1323;
 }
 
 
@@ -106,6 +110,10 @@ main > section span#span-container span:first-child{
 }
 
 /* social media section */
+main + section{
+     color: black;
+     height: 100px;
+}
 main + section > ul{
      display: flex;
      justify-content: end;
@@ -113,6 +121,16 @@ main + section > ul{
      margin-right: 5rem;
      font-size: larger;
      
+}
+
+main + section + section > section{
+     border: 5px solid green;
+}
+
+main + section + section, main + section + section + section{
+     border: 10px solid ;
+     display: flex;
+     justify-content: space-around;
 }
 
 
