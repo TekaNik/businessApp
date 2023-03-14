@@ -132,6 +132,17 @@ main + section + section, main + section + section + section{
      display: flex;
      justify-content: space-around;
 }
+main + section + section section:first-child{
+     flex-basis: 40vw;
+}
+main + section + section section:first-child h2{
+     width: 54%;
+     text-transform: uppercase;
+     font-size:2rem ;
+}
+main + section + section section:first-child p{
+     width: 60%;
+}
 
 
 /******************************************
