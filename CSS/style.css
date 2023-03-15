@@ -133,9 +133,9 @@ main + section + section, main + section + section + section{
      justify-content: space-around;
 }
 main + section + section section:first-child{
-     flex-basis: 40vw;
+     flex-basis: 45vw;
 }
-main + section + section section:first-child h2{
+main + section + section section:first-child h2,main + section + section + section > section h2{
      width: 54%;
      text-transform: uppercase;
      font-size:2rem ;
@@ -150,6 +150,16 @@ main + section + section section:first-child span:last-child{
     padding: 5px;
     border-radius: 9%;
     font-size: larger;
+}
+
+main + section + section + section{
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: space-around;
+     
+}
+main + section + section + section > section,main + section + section + section > img{
+     flex-basis: 45vw;
 }
 
 
