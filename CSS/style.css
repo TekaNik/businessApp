@@ -111,7 +111,6 @@ main > section span#span-container span:first-child{
 
 /* social media section */
 main + section{
-     color: black;
      height: 100px;
 }
 main + section > ul{
@@ -120,17 +119,21 @@ main + section > ul{
      gap:8%;
      margin-right: 5rem;
      font-size: larger;
+     color: black;
      
 }
 
 main + section + section > section{
-     border: 5px solid green;
+     /* border: 5px solid green; */
 }
 
+
+/* we are marketing firm section */
 main + section + section, main + section + section + section{
      border: 10px solid ;
      display: flex;
      justify-content: space-around;
+     color: black;
 }
 main + section + section section:first-child{
      flex-basis: 45vw;
@@ -152,10 +155,19 @@ main + section + section section:first-child span:last-child{
     font-size: larger;
 }
 
+/* digital and social media section */
+main + section + section > section:nth-child(2){
+     display: grid;
+     grid-template-columns: 100px;
+     
+}
+
+/* The following section */
 main + section + section + section{
      display: flex;
      flex-direction: row-reverse;
      justify-content: space-around;
+     color: black;
      
 }
 main + section + section + section > section,main + section + section + section > img{
