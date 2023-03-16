@@ -158,10 +158,10 @@ main + section + section section:first-child span:last-child{
 /* digital and social media section */
 main + section + section > section:nth-child(2){
      display: grid;
-     grid-template-columns: 100px;
-     
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 20px;         
 }
-
 /* The following section */
 main + section + section + section{
      display: flex;
