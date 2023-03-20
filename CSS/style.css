@@ -76,15 +76,24 @@ main{
      justify-content: space-around;
      height: 60vh;
 }
-main > img{
+main > section{
      border: 2px solid red;
+     
 }
 main > section{
      display: flex;
      flex-direction: column;
+     
      font-size: large;
      color: #EFF0F4;
      
+}
+main > section + section{
+     height: 250px;
+     width: 100%;
+     background-image: url(https://placeimg.com/640/1000/tech?t=1679279300724);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 main > section h1,p,span{
      /* border: 2px solid red; */
