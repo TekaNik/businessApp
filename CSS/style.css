@@ -74,7 +74,7 @@ header, main{
 main{
      display: flex;
      justify-content: space-around;
-    
+     height: 60vh;
 }
 main > section, main > img{
      /* border: 2px solid red; */
@@ -82,7 +82,8 @@ main > section, main > img{
 main > section{
      display: flex;
      flex-direction: column;
-     font-size: xx-large;
+     font-size: large;
+     color: #EFF0F4;
      
 }
 main > section h1,p,span{
@@ -90,7 +91,8 @@ main > section h1,p,span{
 }
 main > section p,main > section h1{
      text-transform: capitalize;
-     width: 70%;
+     width: 50%;
+     margin-bottom: 60px;
 }
 main > section h1{
      width: 50%;
@@ -98,28 +100,25 @@ main > section h1{
 }
 main > section span#span-container span{
      text-transform: uppercase;
+    
 }
 main > section span#span-container span:first-child{
     background-color:#EFF0F4;
     color: #646B77;
-    font-weight: bolder;
+    font-weight: bold;
     padding: 10px;
-    margin-right: 10%;
-    border-radius: 9%;
-    font-size: larger;
+    font-size: 25px;
 }
 
 /* social media section */
 main + section{
-     height: 100px;
+     height: 50px;
 }
 main + section > ul{
      display: flex;
      justify-content: end;
      gap:8%;
      margin-right: 5rem;
-     font-size: larger;
-     color: black;
      
 }
 
