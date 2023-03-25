@@ -168,13 +168,10 @@ main + section + section section:first-child h2,main + section + section + secti
 main + section + section section:first-child p{
      width: 60%;
 }
-main + section + section section:first-child span:last-child{
-     background-color:#EFF0F4;
-    color: #646B77;
-    font-weight: bolder;
-    padding: 5px;
-    border-radius: 9%;
-    font-size: larger;
+main + section + section section:first-child button:last-child{
+     background-color:#070a15;
+     color: #F8F9FB;
+ 
 }
 
 /* digital and social media section */
